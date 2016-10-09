@@ -1,6 +1,6 @@
 {
   "name": "benderjs-yui-beautified",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bender.js plugin adding beautified assertions to the YUI adapter.",
   "main": "lib/index.js",
   "scripts": {
