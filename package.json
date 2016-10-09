@@ -1,0 +1,28 @@
+{
+  "name": "benderjs-yui-beautified",
+  "version": "0.0.1",
+  "description": "Bender.js plugin adding beautified assertions to the YUI adapter.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlewand/benderjs-yui-beautified.git"
+  },
+  "keywords": [
+    "bender",
+    "benderjs",
+    "yui",
+    "yui3"
+  ],
+  "author": "Marek Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlewand/benderjs-yui-beautified/issues"
+  },
+  "homepage": "https://github.com/mlewand/benderjs-yui-beautified#readme",
+  "dependencies": {
+    "js-beautify": "^1.6.4"
+  }
+}
