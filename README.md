@@ -40,3 +40,32 @@ Parameters:
 bender.assert.beautified.js( 'var aaa = 3;', 'var aaa =    3;' ); // Pass
 bender.assert.beautified.js( 'var aaa = 3;', 'var aaa =    33;' ); // Fails
 ```
+
+### Config
+
+You can also adjust formatting configuration in your `bender.js` config file.
+
+```
+'use strict';
+
+var config = {
+
+	applications: {
+		// (...)
+	},
+
+	framework: '(...)',
+
+	// (...)
+
+	'yui-beautified': {
+		'indent_with_tabs': true,
+		// All tags should be reformatted.
+		'unformatted': 'none'
+	}
+};
+
+module.exports = config;
+```
+
+For more config options check the [js-beautify package](https://www.npmjs.com/package/js-beautify).
