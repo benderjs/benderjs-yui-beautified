@@ -21,7 +21,7 @@ Parameters:
 
 #### Examples
 
-```
+```javascript
 bender.assert.beautified.html( '<p>aaa aaaa</p>', '<p>aaa    aaaa</p>' ); // Pass
 bender.assert.beautified.html( '<p>aaa aaaa</p>', '<p>aaaaaaa</p>' ); // Fails
 ```
@@ -36,7 +36,7 @@ Parameters:
 
 #### Examples
 
-```
+```javascript
 bender.assert.beautified.js( 'var aaa = 3;', 'var aaa =    3;' ); // Pass
 bender.assert.beautified.js( 'var aaa = 3;', 'var aaa =    33;' ); // Fails
 ```
@@ -45,7 +45,7 @@ bender.assert.beautified.js( 'var aaa = 3;', 'var aaa =    33;' ); // Fails
 
 You can also adjust formatting configuration in your `bender.js` config file.
 
-```
+```javascript
 'use strict';
 
 var config = {
