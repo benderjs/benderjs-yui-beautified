@@ -3,34 +3,11 @@
 'use strict';
 
 var config = {
-	applications: {
-		plugin: {
-			path: '.',
-			files: [
-				'plugin.js'
-			]
-		},
-		foo: {
-			path: 'lib',
-			files: [
-				'plugin.js'
-			]
-		},
-	},
+	applications: {},
 
 	framework: 'yui',
 
-	coverage: {
-		paths: [
-			'plugin.js'
-		],
-		options: {
-			checkTrackerVar: true
-		}
-	},
-
 	plugins: [
-		'benderjs-coverage',
 		'benderjs-yui',
 		'lib'
 	],
