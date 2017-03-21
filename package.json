@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlewand/benderjs-yui-beautified.git"
+    "url": "git+https://github.com/benderjs/benderjs-yui-beautified.git"
   },
   "keywords": [
     "bender",
@@ -17,12 +17,12 @@
     "yui",
     "yui3"
   ],
-  "author": "Marek Lewandowski",
+  "author": "CKSource (http://cksource.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mlewand/benderjs-yui-beautified/issues"
+    "url": "https://github.com/benderjs/benderjs-yui-beautified/issues"
   },
-  "homepage": "https://github.com/mlewand/benderjs-yui-beautified#readme",
+  "homepage": "https://github.com/benderjs/benderjs-yui-beautified#readme",
   "dependencies": {
     "js-beautify": "^1.6.4"
   },
