@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/benderjs/benderjs-yui-beautified#readme",
   "dependencies": {
-    "js-beautify": "^1.6.4"
+    "js-beautify": "1.6.4"
   },
   "devDependencies": {
     "benderjs": "^0.4.1",
